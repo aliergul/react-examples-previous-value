@@ -27,6 +27,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
 button {
@@ -39,6 +41,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-right: 5px;
 }
 
 button:hover {
@@ -48,4 +51,32 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.up-arrow,
+.down-arrow {
+  display: none;
+}
+
+.up h2,
+.up h3 {
+  color: green;
+}
+
+.up .up-arrow {
+  display: inline-block;
+}
+
+.down h2,
+.down h3 {
+  color: red;
+}
+.down .down-arrow {
+  display: inline-block;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
