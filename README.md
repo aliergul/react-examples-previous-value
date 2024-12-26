@@ -1,8 +1,12 @@
-# React + Vite
+# React Exampe - Previous Value
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu projede Vite ile bir React projesi oluşturarak basit bir component yazdım. Buradaki amaç ekrandaki bir verinin bir önceki değerinin anlık değeri ile karşılaştırılmasıydı. Bunu yaparken *useRef* yapısını kullandım.
 
-Currently, two official plugins are available:
+## 📷 Ekran Görüntüleri
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/e2b343f5-3e2f-489f-b6c2-e26ff701d7c9)
+![image](https://github.com/user-attachments/assets/3d55bda6-99bc-49fe-bfa8-43ece8db1300)
+![image](https://github.com/user-attachments/assets/c7ce905f-2844-4981-9874-3064ca0541c6)
+
+
+
